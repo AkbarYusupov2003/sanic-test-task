@@ -1,0 +1,6 @@
+flake8
+isort .
+black --line-length 79 .
+
+alembic revision --autogenerate -m "migration"
+alembic upgrade head
