@@ -5,3 +5,10 @@
   sudo -u postgres createdb DimaTech
   sudo service redis-server start
 ```
+# How to create admin user
+```
+  python commands.py create_admin username password
+```
+# Notes:
+### The "/swagger" endpoint is fully documented
+### The "payment/webhook" endpoint uses sql transaction statement
