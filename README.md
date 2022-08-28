@@ -5,7 +5,7 @@
   sudo -u postgres createdb DimaTech
   sudo service redis-server start
 ```
-# How to create admin user
+# How to create an admin user
 ```
   python commands.py create_admin username password
 ```
